@@ -124,7 +124,7 @@ In my installation, I skipped this step and did it at a later stage. The exact s
 This is where the built Qt sources will be deployed to on the Rasberry Pi. Run the following to create the directory:
 
 	sudo mkdir /usr/local/qt5.15
-	sudo chown -R pi:pi /usr/local/qt5.15
+	sudo chown -R debian:debian /usr/local/qt5.15
 	
 
 ## Step 3: Configure PC
