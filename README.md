@@ -337,7 +337,7 @@ We can now deploy Qt to our bbb. We will again make use of the rsync command. Fi
 
 	cd ~/bbb
 	
-You should now see a new folder named "qt5.15" here. Copy this to the BeagleBone Black using the following command [replace 192.168.1.7 with your bbb's IP address]:
+You should now see a new folder named "qt5.15" here. Copy this to the BeagleBone Black using the following command [replace 172.25.26.1 with your bbb's IP address]:
 
 	rsync -avz --rsync-path="sudo rsync" qt5.15 debian@172.25.26.1:/usr/local
 
